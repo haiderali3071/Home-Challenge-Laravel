@@ -9,6 +9,10 @@
 
 ## How to RUN
 
+In the project directory
+
+- ### Create .env file
+
 - ### Add following in .env file
 
 ```ini
