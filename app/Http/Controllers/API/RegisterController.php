@@ -32,9 +32,11 @@ class RegisterController extends BaseController
             $user = User::create($input); 
             $success['token'] =  $user->createToken('Challenge')->accessToken; 
             Preference::create( 
-                ['user_id'=>$user->id,
-                'categories'=>[],
-                 'sources'=>[]],
+                [
+                    'user_id'=>$user->id,
+                    'categories'=>[],
+                    'sources'=>[]
+                ],
             ); 
 
             return $this->sendResponse($success, 'User register successfully.');
