@@ -9,7 +9,7 @@
 
 ## How to RUN
 
-## Add following in .env file
+### Add following in .env file
 
 ```ini
 APP_NAME=Laravel
