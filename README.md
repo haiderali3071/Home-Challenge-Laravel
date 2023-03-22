@@ -9,6 +9,7 @@
 
 ## Add following in .env file
 
+```ini
 APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:V4zCAqSi8JGgK0qu69Q8Gv3aED8yf1QgQGq69wWTZ4Q=
@@ -73,3 +74,5 @@ THE_GUARDIAN_API_KEY=febc89ea-25db-4e6b-b814-eaea96cd4097
 NYTIMES_API_KEY=GrkXgp9ajvEpg3liKeV0f5PzkcJcbbO2
 
 INITIAL_SOURCE='The Guardian'
+
+```
