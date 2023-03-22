@@ -87,6 +87,8 @@ INITIAL_SOURCE='The Guardian'
 
 ### `composer install or php composer.phar install`
 ### `docker-compose up -d`
+### `docker-compose exec app php artisan migrate`
+### `docker-compose exec app php artisan passport:install`
 
 
 
